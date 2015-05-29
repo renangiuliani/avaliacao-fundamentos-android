@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="title_activity_main">Login</string>
+    <string name="title_activity_service_order">Service Order</string>
+    <string name="title_activity_service_order_list">List of Service Orders</string>
+
+    <string name="msg_mandatory">Mandatory field.</string>
+    <string name="msg_invalid_date">Invalid date.</string>
+    <string name="msg_invalid_time">Invalid time.</string>
+    <string name="msg_invalid_value">Invalid value.</string>
+
+    <string name="lbl_user">User</string>
+    <string name="lbl_pass">Password</string>
+    <string name="lbl_btn_login">Sign In</string>
+    <string name="lbl_service_orders">Service Orders</string>
+    <string name="lbl_add">Add</string>
+    <string name="lbl_client_name">Client Name</string>
+    <string name="lbl_address">Address</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_value">Value</string>
+    <string name="lbl_paid">Paid?</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_time">Time</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_edit">Edit</string>
+    <string name="lbl_add_success">Adicionado com sucesso!</string>
+    <string name="lbl_edit_success">Editado com sucesso!</string>
+    <string name="lbl_options">Opções</string>
+    <string name="lbl_call">Ligar</string>
+    <string name="lbl_arquive">Arquive</string>
+    <string name="lbl_active">Active</string>
+    <string name="lbl_client_phone">Telefone</string>
+    <string name="lbl_confirm">Confirmação</string>
+    <string name="msg_delete">Deseja remover a ordem de serviço selecionada?</string>
+    <string name="msg_active_order">Deseja ativar a ordem de serviço selecionada?</string>
+    <string name="msg_delete_success">Removido com sucesso!</string>
+    <string name="msg_active_success">Ativada com sucesso!</string>
+    <string name="lbl_share">Compartilhar</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_search_active">Listar Ativos</string>
+    <string name="lbl_search_noactive">Listar Inativos</string>
+    <string name="lbl_login_no_success">Invalid Login!</string>
+    <string name="lbl_login_success">Login Success!</string>
+    <string name="msg_active">Service Orders Active!</string>
+    <string name="msg_arquive">Service Orders Arquive!</string>
+
+
+</resources>

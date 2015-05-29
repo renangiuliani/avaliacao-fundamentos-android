@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppThemeMaterial" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+                <!--   your app branding color for the app bar -->
+                <item name="colorPrimary">@color/material_400</item>
+                <!--   darker variant for the status bar and contextual app bars -->
+                <item name="colorPrimaryDark">@color/material_800</item>
+                <!--   theme UI controls like checkboxes and text fields -->
+                <item name="colorAccent">@color/material_A400</item>
+
+                <item name="android:navigationBarColor">@color/black_50_transparent</item>
+
+                <item name="android:buttonStyle">@style/MyButton</item>
+        </style>
+
+        <style name="MyButton" parent="@android:style/Widget.Button">
+                <!-- Colors: http://www.google.com/design/spec/style/color.html#color-color-palette -->
+                <item name="android:background">@drawable/button_default_background</item>
+                <item name="android:textColor">@color/white</item>
+                <!-- Buttons: http://www.google.com/design/spec/components/buttons.html#buttons-usage -->
+                <item name="android:minWidth">88dp</item>
+                <item name="android:height">48dp</item>
+                <item name="android:layout_marginLeft">4dp</item>
+                <item name="android:layout_marginRight">4dp</item>
+                <item name="android:paddingLeft">8dp</item>
+                <item name="android:paddingRight">8dp</item>
+                <!-- Typography: http://www.google.com/design/spec/style/typography.html#typography-styles -->
+                <item name="android:textSize">14sp</item>
+                <item name="android:textAllCaps">true</item>
+        </style>
+</resources>

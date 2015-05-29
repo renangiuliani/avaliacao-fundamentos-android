@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".controllers.ServiceOrderActivity">
+
+    <item
+        android:id="@+id/actionShare"
+        android:icon="@mipmap/ic_action_share"
+        android:title="@string/lbl_share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@mipmap/ic_search"
+        android:title="@string/lbl_search"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/SearchActive"
+                android:title="@string/lbl_search_active" />
+
+            <item
+                android:id="@+id/SearchNoActive"
+                android:title="@string/lbl_search_noactive" />
+        </menu>
+    </item>
+
+</menu>
